@@ -15,6 +15,12 @@ public class Book {
     @Expose
     private String author;
 
+    public Book(String title, String imageURL, String author) {
+        this.title = title;
+        this.imageURL = imageURL;
+        this.author = author;
+    }
+
     public String getTitle() {
         return title;
     }
